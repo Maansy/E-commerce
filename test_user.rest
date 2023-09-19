@@ -1,0 +1,34 @@
+POST http://127.0.0.1:8000/api/register/
+Content-Type: application/json
+
+{
+    "name": "abdo",
+    "password": "dsfsdf",
+    "email": "abdo@a.com",
+    "phone": "010111"
+}
+
+###
+
+POST http://127.0.0.1:8000/api/login/
+Content-Type: application/json
+
+{
+    "password": "dsfsdf",
+    "email": "as@a.com"
+}
+
+###
+GET http://127.0.0.1:8000/api/user/
+Content-Type: application/json
+
+
+###
+POST http://127.0.0.1:8000/api/logout/
+Content-Type: application/json
+
+
+###
+GET http://127.0.0.1:8000/categories/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZXhwIjoxNjk1MTM2NTA0LCJpYXQiOjE2OTUxMzI5MDR9.1pdgRnr3GilJ8bAOeXJcB2HQyjRVCpt91HoqItDMESI
